@@ -1,0 +1,193 @@
+\documentclass[12pt, letter paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\geometry{
+left = 1in,
+right = 1in,
+top = 1in,
+bottom = 1in
+}
+\title{Homework 8 Solutions}
+\author{Chris Logan, Ben Lanoue}
+\date{2/12/19}
+
+\begin{document}
+\maketitle
+$\mathbf{Section  2.4}$
+\begin{enumerate}
+	\setcounter{enumi}{1}
+	\item 
+    	\begin{enumerate}
+		\item 128
+		\item 2
+		\item 7
+		\item -128
+	\end{enumerate}
+	
+	\setcounter{enumi}{3}
+	\item
+	\begin{enumerate}
+		\item 1, -2, 4, 8
+		\item 3, 3, 3, 3
+		\item 8, 11, 23, 71
+		\item 2, 0, 8, 0
+	\end{enumerate}
+	
+	\setcounter{enumi}{13}
+	\item
+	\begin{enumerate}
+		\item \( a_0 = 3; a_n = a_{n-1} \)
+		\item \(a_0 = 0; a_n = a_{n-1} +2\)
+		\item \(a_0 = 3; a_n = a_{n-1} +2\)
+		\item \(a_0 = 1; a_n = a_{n-1} *  5\)
+		\item \(a_0 = 0; a_n = a_{n-1} + 2n - 1\)
+		\item \(a_0 = 0; a_n = a_{n-1} - +2n\) 
+		\addtocounter{enumii}{1}
+		\item \(a_0 = 1; a_n = a_{a-1} * n\)
+	\end{enumerate}
+	
+	\setcounter{enumi}{29}
+	\item
+	\begin{enumerate}
+		\item 16
+		\item 84
+		\item\( \frac{176}{105} \)
+		\item 4
+	\end{enumerate}
+	
+	\setcounter{enumi}{31}
+	\item
+	\begin{enumerate}
+		\item 10
+		\item 9,330
+		\item 21,215
+		\item 511
+	\end{enumerate}
+	
+\end{enumerate}
+
+$\mathbf{Section 4.1}$
+\begin{enumerate}
+	\setcounter{enumi}{5}
+	\item Show that if a, b, c, and d are integers, where a does not equal 0, then if  a | c and\\ b | d, then ab | cd
+	\\
+	\\We know that for an integer to be divisible, there must exist an integer such that x = yz so we can say y 		divides x.
+	\\
+	\\First we know that a | c, so there must exist an integer f such that
+	\\c = af
+	\\
+	\\Next we know that b | d, so there must exist an integer g such that
+	\\d = bg
+	\\
+	\\Now we can say that 
+	\\cd = af * bd
+	\\Which we can now rearrange to
+	\\cd = ab * fg
+	\\
+	\\Since we know f is and integer and g is an integer, fg must also be an integer (lets call it h). So that means 	were left with
+	\\cd = ab * h
+	\\Which according to the definition of divides, means ab | cd
+	
+	\setcounter{enumi}{23}
+	\item
+	\begin{enumerate}
+		\item -3
+		\item -12
+		\item 94
+	\end{enumerate}
+	
+	\item
+	\begin{enumerate}
+		\setcounter{enumii}{1}
+		\item -7
+		\item 140
+	\end{enumerate}
+	
+	\item 16, 28, 40, 52, 64
+	
+	\setcounter{enumi}{27}
+	\item
+	\begin{enumerate}
+		\item no
+		\item yes
+		\item no
+		\item yes
+	\end{enumerate}
+	
+	\item
+	\begin{enumerate}
+		\item no
+		\item no
+		\item yes
+		\item no
+	\end{enumerate}
+
+\end{enumerate}
+
+$\mathbf{Section  4.2}$
+
+\begin{enumerate}
+	\setcounter{enumi}{4}
+	\item
+	\begin{enumerate}
+		\item 1 0111 1010
+		\item 11 1000 0100
+	\end{enumerate}
+	
+	\item
+	\begin{enumerate}
+		\item 1111 0111
+		\item 5252
+	\end{enumerate}
+	
+	\item
+	\begin{enumerate}
+		\item 1000 0000 1100
+		\item 1 0011 0101 1010 1011
+	\end{enumerate}
+	
+	\item 1011 1010 1101 1111 1010 1100 1110 1101
+	\\
+	\item 1010 1011 1100 1101 1110 1111
+	\\
+	\item
+	\begin{enumerate}
+		\item F7
+		\item AAA
+	\end{enumerate}
+	
+	\item B7B
+	\\
+	\item 1863
+	\\
+	\setcounter{enumii}{17}
+	
+	\item First convert each hexadecimal place into its corresponding binary value. Each heaxadecimal place should represent 4 binary digits
+	\\
+	\\ Next, after converting, from right to left, group each binary digit into groups of 3
+	\\
+	\\ Finally, convert each group of 3 binary digits into its corresponding octal counterpart to get the final conversion from hexadecimal to octal
+	\\
+	\\ Example
+	\\ Converting \(AB_{16}\) into octal
+	\\ B = 1011
+	\\A = 1010
+	\\AB = 1010 1011
+	\\
+	\\Now regroup it
+	\\  10 101 011
+	\\
+	\\Now reconvert the corresponding binary digits to octal (or decimal, the results will still be the same)
+	\\ 253
+	
+	
+	
+\end{enumerate}
+	
+
+				
+
+\end{document}
